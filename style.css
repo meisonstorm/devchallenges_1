@@ -1,0 +1,84 @@
+body {
+    font-family: 'Space Mono', monospace;
+    justify-content: center;
+    font-size: 18px;
+}
+
+nav {
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 5%;
+    justify-content: center;
+}
+
+.img {
+    float: left;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    width: 60vw;
+}
+
+.content {
+    float: left;
+}
+
+.header {
+    font-size: 11vw;
+    font-weight: bolder;
+}
+
+.text {
+    margin-top: 50px;
+    width: 60vw;
+}
+
+button {
+    margin-top: 50px;
+    display: block;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    padding: 20px 30px;
+    font-family: 'Space Mono', monospace;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+
+    img {
+        width: 30vw;
+    }
+
+    .header {
+        font-size: 4vw;
+        margin-right: 25%;
+    }
+
+    .text {
+        width: 15vw;
+    }
+}
